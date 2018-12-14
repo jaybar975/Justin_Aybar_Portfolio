@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+<<<<<<< HEAD
 .bg-black {
     background-color: black;
 }
@@ -18,4 +19,8 @@ img {
     .font-div {
         padding: 68px 0px !important;
     }
+=======
+html {
+    background-color: blanchedalmond;
+>>>>>>> parent of 62c7600... 1st Commit
 }
