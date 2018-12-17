@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-<<<<<<< HEAD
+
+body {
+    background-color: grey;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -14,13 +18,19 @@ img {
     width: 30%;
 }
 
-/* ///////Media Query */
-@media only screen and (min-width: 1198px) {
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+@media only screen and (max-width: 480px) {
     .font-div {
         padding: 68px 0px !important;
     }
-=======
-html {
-    background-color: blanchedalmond;
->>>>>>> parent of 62c7600... 1st Commit
+}
+
+/* ///////Media Query */
+@media only screen and (min-width: 481px) {
+    .font-div {
+        padding: 68px 0px !important;
+    }
 }
